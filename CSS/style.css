@@ -1,5 +1,10 @@
 body{
-    background: black;
+    background-color: #2a35b8; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#401e93, cyan); 
+}
+
+.jumbotron {
+   background-image:linear-gradient(#221d2c94, #33fffff2);
 }
 
 h3{
@@ -9,7 +14,8 @@ h3{
 
 .row{
     color: #747114;
-    background: darkslategrey;
+    /* background: darkslategrey; */
+    /* background-image: linear-gradient(#221d2c94, #33fffff2); */
     padding: 15px 5px 3px 10px;
 }
 
