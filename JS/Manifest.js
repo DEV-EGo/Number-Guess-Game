@@ -35,7 +35,7 @@ $(document).ready(function () {
 
 
         }
-        $("#image-div").html("<img src='https://media.giphy.com/media/26BkNituin1dca6GI/giphy.gif' /> ");
+        $("#congratulations-div").html("<img src='https://media.giphy.com/media/26BkNituin1dca6GI/giphy.gif' /> ");
 
 
     });

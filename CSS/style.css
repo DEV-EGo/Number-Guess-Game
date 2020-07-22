@@ -1,0 +1,23 @@
+body{
+    background: black;
+}
+
+h3{
+    font-style: italic;
+}
+
+.row{
+    color: #ce1de3;
+}
+
+.container{
+    color: lightblue;
+}
+
+#congratulations-div, img{
+    /* border-style: none; */
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+
+};
