@@ -17,10 +17,13 @@ $(document).ready(function () {
 
         // this line reveals the computer choice inside the html
 
+        $("#computer-pick").text(ComPick);
+
         // if the choice matches the computers pick this line of code will let you know
 
         if (parseInt(UserPick) === ComPick) {
-            $("#result").text(" BINGO! YOU GOT IT!! Refresh to play again");
+            $("#result").text(" BINGO! YOU GOT IT!! Refresh & play again");
+
             LockTheGame = true;
 
         }
@@ -29,7 +32,11 @@ $(document).ready(function () {
         else {
             $("#result").text(" Nope! refresh and try again");
             LockTheGame = true;
+
+
         }
+        $("#image-div").html("<img src='https://media.giphy.com/media/26BkNituin1dca6GI/giphy.gif' /> ");
+
 
     });
 });
