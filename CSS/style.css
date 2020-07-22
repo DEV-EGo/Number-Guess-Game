@@ -4,10 +4,13 @@ body{
 
 h3{
     font-style: italic;
+    text-align: center;
 }
 
 .row{
-    color: #ce1de3;
+    color: #747114;
+    background: darkslategrey;
+    padding: 15px 5px 3px 10px;
 }
 
 .container{
